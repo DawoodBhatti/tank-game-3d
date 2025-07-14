@@ -52,7 +52,7 @@ A minimalist prototype inspired by *Wild Metal Country* and *Deep Rock Galactic*
 - [ ] Environmental hazards
 
 ### 🚧 Week 3+: Expansion Ideas
-- Advanced terrain shaders  
+- Advanced terrain shaders (neon digital tron-esque?)
 - Time dilation / trippy effects  
 - Symbolic enemies / dream logic  
 
