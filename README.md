@@ -85,8 +85,8 @@ MIT
 
 ---
 
-## 🌌 Author
+## 🌌 Author(s)
 
-Al // Designed with Copilot  
+Ali Bhatti // Designed with Copilot  
 Feel free to fork, remix, and prototype your own version!
 
