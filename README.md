@@ -1,7 +1,5 @@
-# tank-game-3d
+# tank-game-3d – Powered by Godot 4
 prototyping my first 3d game
-
-# 🔧 Tank Terrain Prototype – Powered by Godot 4
 
 A minimalist prototype inspired by *Wild Metal Country* and *Deep Rock Galactic*  
 🧠 Procedural terrain meets chunky tank combat and dynamic environment destruction.
