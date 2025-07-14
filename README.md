@@ -1,52 +1,94 @@
 # tank-game-3d
 prototyping my first 3d game
 
+# 🔧 Tank Terrain Prototype – Powered by Godot 4
 
-#  🧱 1. Procedural Hills
-Use OpenSimplexNoise or FastNoiseLite to generate terrain heightmaps.
+A minimalist prototype inspired by *Wild Metal Country* and *Deep Rock Galactic*  
+🧠 Procedural terrain meets chunky tank combat and dynamic environment destruction.
 
-PROCEDURAL GENERATION - Godot Mini-Course walks through mesh generation, noise setup, and terrain shaping.
+---
 
-How to Create PROCEDURAL Generation in Godot 4 shows how to integrate procedural terrain into a game scene using the Gaea plugin.
+## 🚀 Features
 
-You’ll generate a mesh grid, sample noise for each vertex, and displace it vertically to form hills.
+| Feature              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| 🌄 Procedural Hills  | Uses OpenSimplexNoise to generate undulating terrain via mesh deformation. |
+| 🛞 Tank Physics      | Simple RigidBody3D or CharacterBody3D controller with turret rotation.     |
+| 💥 Fireable Shells   | Instanced projectile scenes with collision detection and explosion effects.|
+| 🧨 Destructible World| Voxel-style terrain or GridMap tiles that react to shell impacts.          |
 
-#  🛞 2. Basic Tank Controller
-Use a RigidBody3D or CharacterBody3D for your tank.
+---
 
-Add movement with torque or directional forces
+## 🛠 Tech Stack
 
-Rotate turret separately using input
+- **Engine:** Godot 4.x
+- **Language:** GDScript
+- **Plugins/Tools:**
+  - [Gaea plugin](https://github.com/Zylann/godot-gaea) (optional for terrain sculpting)
+  - FastNoiseLite or OpenSimplexNoise for procedural effects
+  - CSG or GridMap for destructibility
 
-Fire shells using instanced RigidBody3D projectiles
+---
 
-You can start with a simple cube and cylinder setup for the tank body and turret — no need for fancy models yet.
+## 🎮 Controls (Planned)
 
-#  💥 3. Fireable Shells
-Create a shell scene:
+| Input         | Action             |
+|---------------|--------------------|
+| `WASD`        | Tank movement      |
+| `Mouse`       | Turret aim         |
+| `Left Click`  | Fire shell         |
+| `Spacebar`    | Boost / Brake      |
 
-Use RigidBody3D with collision and gravity
+---
 
-Add a trail or particle effect for visual feedback
+## 🧪 Prototype Milestones
 
-On impact, detect collision and trigger terrain damage
+### ✅ Week 1: Core Setup
+- [x] Procedural terrain generation
+- [x] Basic tank movement & camera
+- [x] Fireable shells
 
-You can use raycasting or area detection to simulate explosive force.
+### ⏳ Week 2: Destructibility
+- [ ] Voxel or chunk-based terrain damage
+- [ ] Particle and sound feedback
+- [ ] Environmental hazards
 
-#  🧨 4. Destructible Environment
-This is the trickiest part, but still achievable.
+### 🚧 Week 3+: Expansion Ideas
+- Advanced terrain shaders  
+- Time dilation / trippy effects  
+- Symbolic enemies / dream logic  
 
-Fully Destructible 3D Environments - Godot 4 FPS Tutorial shows how to use GridMap and CSG nodes to create destructible terrain.
+---
 
-You can remove or modify tiles on impact, or use boolean mesh operations to “carve” terrain.
+## 📸 Screenshots
 
-Start with voxel-style terrain or modular chunks to simplify destruction logic.
+*Coming soon!*
 
-#  🧪 Prototype Scope
-You could build a playable prototype in 1–2 weeks if you:
+---
 
-Keep visuals minimal (use primitives)
+## 💡 Inspiration
 
-Focus on one terrain chunk
+- [Wild Metal Country (Rockstar)](https://www.youtube.com/watch?v=XEwILwkeQqE)
+- [Deep Rock Galactic](https://www.deeprockgalactic.com/)
+- [Procedural Destruction in Godot](https://www.youtube.com/watch?v=FgF3oFrAwUY)
 
-Limit shell types and destruction radius
+---
+
+## 🧠 Want to Contribute?
+
+This is an experimental playground. PRs, ideas, and surreal twists welcome.  
+Let’s bend reality and blast terrain.
+
+---
+
+## 📄 License
+
+MIT
+
+---
+
+## 🌌 Author
+
+Al // Designed with Copilot  
+Feel free to fork, remix, and prototype your own version!
+
